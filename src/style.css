@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,200;0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body1{
+    background-image: url(https://i.pinimg.com/originals/62/9d/15/629d152f62ef677770d60e71c0e1b970.jpg);
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#linkPrincipal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    margin: 30px;
+}
+ul .link{
+    display: block;
+    position: relative;
+    font-family: 'Gayathri', sans-serif;;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+ul .link::after{
+ content: "";
+ position: absolute;
+ width: 0;
+ height: 1px;
+ background-color: rgb(233, 180, 35);
+left: 0;
+bottom: 0;
+}
+ul .link:hover::after{
+    width: 100%;
+    transition:width 0.3s ease-in-out;
+}
+ul .link:visited{
+    color: rgb(172, 142, 10);
+}
+
+#imgLogo{
+    width: 30%;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+#imgAbout{
+    width: 10%;
+    border-radius: 60%;
+    margin: 20px;
+}
+@font-face{
+    font-family: "MadelinaScript";
+    src:url("MadelinaScript.woff");
+}
+#tituloAbout{
+    color: #fff;
+    margin: 20px;
+    font-family:MadelinaScript ;
+    font-size: 35px;
+}
+.pAbout{
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Lora', serif;
+}
+.pCreate{
+    color: #fff;
+    font-family: 'Lora', serif;
+}
+
+/* HTML CHAMPION */
+#body2{
+    background-image: url(https://i.pinimg.com/originals/6c/dd/a7/6cdda74aef801e92bac9270506312ca4.jpg);
+}
+#principalChamp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px;
+}
+#label1{
+    font-size: 19px;
+    color: rgb(189, 191, 207);
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    text-transform: uppercase;
+}
+#nameChampions{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    outline: none;
+}
+#champ{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    width: 60vw;
+    margin-left: 300px;
+    margin-top: 60px;
+    background-color: rgba(29, 39, 59, 0.3);
+    box-shadow: #000 0 0 10px 3px;
+    border-radius: 10px;
+}
+#principal-level{
+    width: 35vw;
+    padding: 10px;
+    color: #fff;
+    margin-top: 600px;
+}
+#principal-skin{
+    width: 25vw;
+    height: 30vh;
+    margin: 100px 0 0 0;
+}
+#descriChamp{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #fff;
+}
+#principal-spell{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px;
+}
+.pChampion{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+
+}
+.telaSecundaria{
+    width: 15vw;
+    padding: 10px;
+    margin: 5px;
+}
+#imgP:hover{
+cursor: pointer;
+transform: scale(1.2);
+
+}
+#btnPassiv,#btnSpell{
+    margin: 10px; 
+}
+#btnPassiv,#btnSpell, #imgPassiv, #imgSpell{
+    border-radius: 50px;
+    border: none;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+#btnPassiv:hover, #btnSpell:hover{
+    transform: scale(1.3);
+}
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+td{
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    color: cadetblue;
+    text-align: center;
+}
+th{
+    padding: 10px;
+    color: rgb(133, 136, 151);
+    font-family: 'Work Sans', sans-serif;
+}
+#lvl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#Label{
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    margin: 10px;
+}
+#level{
+  padding: 3px;
+  margin-left: 10px;
+}
+
+/* HTML ITEM */
+
+#body3{
+    background-image: url(https://i.pinimg.com/originals/6c/18/cf/6c18cfea1f788b7ffa8b56f6b5cfba97.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+ #resultImg{
+    width: 30%;
+    float:left;
+    overflow: auto;
+    height: 80vh;
+    
+    padding: 10px;
+    background-color: rgb(17, 16, 16, 0.3);
+}
+#resultInformation{
+    width: 30vw;
+}
+#imgIt{
+    width: 30vw;
+}
+#imgItem{
+    float: left;
+    overflow: hidden;
+}
+.itens{
+    width: 4.73vw;
+}
+.btnItem{
+    background-color: #000;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+#information1{
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    font-family: 'Lora', serif;
+}
+#information2{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #fff;
+    margin: 10px;
+}
+
+/* HTML MAPS */
+#body4{
+    background-image: url(https://lolstatic-a.akamaihd.net/frontpage/apps/prod/clash-2018/pt_BR/a46e742ae82f9d4f9db8e34ba57873e513e727b7/assets/static/img/backgrounds/brackets-bg.jpg);
+}
+#container{
+    margin: 30px;
+}
+.imgMap{
+    width: 25%;
+    margin: 20px 0 0 50px;
+    border-radius: 20px;
+    box-shadow: greenyellow 0 0 10px 2px;
+    margin: 20px;
+    cursor: pointer;
+}
+.imgMap1{
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: greenyellow 0 0 10px 2px;
+    margin: 20px;
+    cursor: pointer;
+}
+.titulo{
+    margin: 20px;
+    color: #fff;
+    font-family: 'Grandstander', cursive;
+}
+.titulo1{ 
+    color: #fff;
+    font-family: 'Grandstander', cursive;
+    margin: 20px;
+}
+.map{
+    color: rgb(202, 156, 55);
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
+.pgMap, .pgMap1{
+    width: 50vw; 
+    text-align: center; 
+}
+#Mapa1, #Mapa2, #Mapa3, #Mapa4, #Mapa5, #Mapa6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
